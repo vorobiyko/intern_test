@@ -83,7 +83,7 @@ const Home = () => {
                 <div className={s.displayGrid}>
                     <div className={s.leftContainer}>
                         <div className={s.functionalContainer}>
-                            <NavLink className={s.navlinkLogo} to='intern_test/'>
+                            <NavLink className={s.navlinkLogo} to='/intern_test/'>
                                 <div className={s.logo}></div>
                             </NavLink>
                             <div className={s.widgetContainer}>
