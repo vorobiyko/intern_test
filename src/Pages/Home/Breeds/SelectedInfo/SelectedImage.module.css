@@ -1,0 +1,107 @@
+.titleBreed{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+    color: #1D1D1D;
+}
+.containerInfo h2{
+    color: #8C8C8C;
+}
+span h4:first-child{
+    font-weight: 500;
+    color: #1D1D1D;
+}
+/*fornitura*/
+
+
+.breedsHeader{
+    display: flex;
+    margin-bottom: 20px;
+}
+.breedsTitle{
+    display: flex;
+    background: #FBE0DC;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18px;
+}
+.breedsTitle h2{
+    color: #FF868E;
+    text-transform: uppercase;
+    margin: 0 30px;
+}
+.breedsTitleID{
+    display: flex;
+    background: #FF868E;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18px;
+}
+.breedsTitleID h2{
+    color: white;
+    text-transform: uppercase;
+    margin: 0 30px;
+}
+.chooseBreedImages{
+    width: calc(100%- 40px);
+    height: 360px;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.chooseImage{
+    width: 100%;
+    height: 100%;
+    background: #FF868E;
+    border-radius: 20px;
+}
+.breedInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.titleBreed{
+    position: absolute;
+    background: white;
+    padding: 0 40px;
+    top: -26px;
+}
+.containerInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    outline: 2px solid #FBE0DC;
+    border-radius: 20px;
+}
+.containerInfo h2{
+    margin: 26px 40px 20px 40px;
+}
+.boxesWithInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.boxTemperament{
+    width: 50%;
+    margin-left: 40px;
+}
+.boxAboutCat{
+    width: 50%;
+    margin-left: 20px;
+}
+.boxAboutCat span{
+    display: flex;
+    margin-bottom: 10px;
+}
+.boxAboutCat span:last-child{
+    margin-bottom: 0px;
+}
+.boxAboutCat span h4:last-child{
+    margin-left: 5px;
+}

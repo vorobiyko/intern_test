@@ -1,0 +1,77 @@
+.gridPhotos{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: "A0 A1 A2"
+"A0 A3 A3"
+"A4 A3 A3";
+    width: 100%;
+    height: 460px;
+    position: relative;
+}
+.photo{
+    border-radius: 20px;
+    background-color: #E0E0DC;
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0;
+}
+.hoverGround{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 134, 142, 0.6);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: absolute;
+}
+.hoverGround.search{
+    justify-content: end;
+}
+.buttonFav{
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    justifyContent: center;
+    alignItems: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.breedsName{
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: calc(100% - 20px);
+    margin: 0 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.breedsName h4{
+    color: #FF868E;
+    margin: 5px 0;
+}
+.photo:hover .hoverGround{
+    display: flex;
+}
+.gridPhotos h3{
+    margin: 0 0 0 30px;
+}
+.iconBox{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: 100% 100%;
+}

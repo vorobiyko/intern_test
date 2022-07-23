@@ -1,0 +1,162 @@
+.votingContent{
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 670px;
+}
+.votingHeader{
+    display: flex;
+    margin-bottom: 20px;
+}
+.btnBack{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #FBE0DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.votingTitle{
+    display: flex;
+    background: #FF868E;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18px;
+}
+.votingTitle h2{
+    color: white;
+    text-transform: uppercase;
+    margin: 0 30px;
+}
+.mainContent{
+    display: flex;
+    flex-direction: column;
+}
+.windowImgBtn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin-bottom: 52px;
+}
+.votingImg{
+    width: 100%;
+    height: 360px;
+    border-radius: 20px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    background: #B4B7FF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.image .img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.buttonsVoting{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    outline: 4px solid white;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -40px;
+    background: white;
+}
+.buttonLike,.buttonFavourite,.buttonDislike{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.buttonLike{
+    background:#97EAB9 ;
+    border-radius: 20px 0 0 20px ;
+
+}
+.buttonFavourite{
+    background: #FF868E;
+    outline: 4px white solid;
+}
+.buttonDislike{
+    background: #FFD280;
+    border-radius: 0 20px 20px 0;
+    outline: 4px white solid;
+}
+.buttonDislike:hover{
+   background: rgba(255, 210, 128, 0.3);
+}
+.buttonDislike:hover svg path{
+    fill: #FFD280;
+}
+.buttonLike:hover{
+    background: rgba(151, 234, 185, 0.3);
+}
+.buttonLike:hover svg path{
+    fill: #97EAB9;
+}
+.buttonFavourite:hover{
+    background: rgba(255, 134, 142, 0.3);
+}
+.buttonFavourite:hover svg path{
+    fill: #FF868E;
+}
+/*Logs*/
+.usersLogs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sectionLog{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background: #F8F8F7;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.dataLog{
+    margin: 18px 30px 18px 25px;
+    color: black;
+}
+.idLog{
+    font-weight: 500;
+    color: black;
+    margin: 0 5px;
+}
+.iconLog{
+    position: absolute;
+    right: 20px;
+}
+.iconLog svg path{
+    width: 20px;
+    height: 20px;
+
+}
+.iconLog svg .fav{
+
+    fill: #FFD280;
+}
+.iconLog svg .dlk{
+    fill: #FF868E;
+}
+.iconLog svg .lk{
+    fill: #97EAB9;
+
+}

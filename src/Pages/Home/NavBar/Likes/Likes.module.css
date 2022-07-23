@@ -1,0 +1,83 @@
+.likeContent{
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 670px;
+}
+.likeHeader{
+    display: flex;
+    margin-bottom: 20px;
+}
+.btnBack{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #FBE0DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.likeTitle{
+    display: flex;
+    background: #FF868E;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18px;
+}
+.likeTitle h2{
+    color: white;
+    text-transform: uppercase;
+    margin: 0 30px;
+}
+.likeGrid{
+    display: flex;
+    margin-top: 20px;
+}
+.btns{
+    display: flex;
+    align-self: center;
+    margin-top: 20px;
+}
+.btnNext{
+    margin-left: 40px;
+}
+.btnPrev,.btnNext{
+    width: 122px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF868E;
+    cursor: pointer;
+}
+.arrowPrev{
+    transform: rotate(90deg);
+    margin: 0 15px 1px 0;
+}
+.arrowNext{
+    transform: rotate(-90deg);
+    margin: 0 0px 1px 15px;
+}
+.btnPrev:hover{
+    background: #FBE0DC;
+}
+.btnPrev:hover h4{
+    color: #FF868E;
+}
+.btnPrev:hover svg path{
+    fill: #FF868E;
+}
+.btnNext:hover{
+    background: #FBE0DC;
+}
+.btnNext:hover h4{
+    color: #FF868E;
+}
+.btnNext:hover svg path{
+    fill: #FF868E;
+}

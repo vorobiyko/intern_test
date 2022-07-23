@@ -1,0 +1,131 @@
+
+.displayGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px 0 30px 30px;
+}
+.leftContainer{
+    display: flex;
+    justify-content: end;
+}
+.functionalContainer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 119px;
+
+}
+.logo{
+    width: 107px;
+    height: 24px;
+    background-image: url("/src/images/Logo.svg");
+}
+.widgetContainer{
+    position: sticky;
+    top: 134px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.widgetContainer h3{
+    margin: 10px 0px 60px 0;
+}
+.widgetBox{
+    display: flex;
+    flex-direction: column;
+}
+.widgetCards{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.widgetCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 16px;
+
+}
+.widgetCard:last-child{
+    margin: 0;
+}
+.widgetBG{
+    background: #B4B7FF;
+    border: 4px solid rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    width: 138px;
+    height: 198px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0 10px 0;
+    transition: background .2s ease-in
+}
+.widgetCard:nth-child(2) .widgetBG{
+    background-color: #97EAB9;
+}
+.widgetCard:nth-child(3) .widgetBG{
+    background-color: #FFD280;
+    align-items: end;
+}
+.widgetBtn{
+    width: 138px;
+    height: 36px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background .2s ease-in
+}
+.textBtn{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #FF868E;
+    transition: background .2s ease-in
+}
+/*Hover*/
+.widgetBtn:hover{
+    background: #FBE0DC;
+}
+/*Hover*/
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: first;
+    padding-right: 30px;
+}
+.navBarContainer{
+    margin-bottom: 10px;
+}
+/*Active state*/
+.active{
+    background: #FF868E;
+    width: 138px;
+    height: 36px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background .2s ease-in
+}
+.textBtnActive{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    transition: background .2s ease-in
+}
+.widgetBGborder{
+    border: 4px solid #FBE0DC;
+}
+.widgetBGhover{
+    border: 4px solid white;
+}

@@ -1,0 +1,225 @@
+.breedsContent{
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 670px;
+}
+.breedsHeader{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.btnBack{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #FBE0DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.breedsTitle{
+    display: flex;
+    background: #FF868E;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.breedsTitle h2{
+    color: white;
+    text-transform: uppercase;
+    margin: 0 30px;
+}
+.filterBreeds,.limitImage,.sortingZtoA,.sortingAtoZ{
+    height: 40px;
+    background: #F8F8F7;
+    border-radius: 10px;
+
+}
+.filterBreeds{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 225px;
+    z-index: 1;
+}
+.selectedBreeds{
+    margin-left: 10px;
+}
+.filterBreeds label{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.filterBreeds label:hover{
+    outline: 2px solid #FBE0DC;
+    border-radius: 10px;
+}
+.inp{
+    opacity: 0;
+    position: absolute;
+}
+.filterBreeds img{
+    position: absolute;
+    right: 10px;
+    z-index: -1;
+}
+.autofocus:focus{
+    margin-left: 20px;
+}
+.optionBox{
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    top: 40px;
+}
+.optionBox1{
+    background: white;
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    top: 40px;
+    overflow: scroll;
+}
+.optionBox1::-webkit-scrollbar{
+    display: none;
+}
+.loadMoreOpt{
+    bottom: 0;
+    margin-left: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.option{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.option h4{
+    margin-left: 10px;
+}
+.option:hover{
+    background: #F8F8F7;
+}
+.limitImage{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.limitImage img{
+    position: absolute;
+    right: 10px;
+    z-index: -1;
+}
+.limitImage label{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.limitImage label:hover{
+    outline: 2px solid #FBE0DC;
+    border-radius: 10px;
+}
+.optionLimitBox{
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    top: 40px;
+}
+.options{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sortingAtoZ,.sortingZtoA{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.sortingZtoA:hover{
+    outline: 2px solid #FBE0DC;
+}
+.sortingZtoA:hover svg path{
+    fill: #FF868E;
+}
+.sortingZtoA.active svg path{
+    fill: #FF868E;
+}
+.sortingAtoZ:hover{
+    outline: 2px solid #FBE0DC;
+}
+.sortingAtoZ:hover svg path{
+    fill: #FF868E;
+}
+.sortingAtoZ.active svg path{
+    fill: #FF868E;
+}
+.breedsGrid{
+    display: flex;
+}
+.btns{
+    display: flex;
+    align-self: center;
+    margin-top: 20px;
+}
+.btnNext{
+    margin-left: 40px;
+}
+.btnPrev,.btnNext{
+    width: 122px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF868E;
+    cursor: pointer;
+}
+.arrowPrev{
+    transform: rotate(90deg);
+    margin: 0 15px 1px 0;
+}
+.arrowNext{
+    transform: rotate(-90deg);
+    margin: 0 0px 1px 15px;
+}
+.btnPrev:hover{
+    background: #FBE0DC;
+}
+.btnPrev:hover h4{
+    color: #FF868E;
+}
+.btnPrev:hover svg path{
+    fill: #FF868E;
+}
+.btnNext:hover{
+    background: #FBE0DC;
+}
+.btnNext:hover h4{
+    color: #FF868E;
+}
+.btnNext:hover svg path{
+    fill: #FF868E;
+}

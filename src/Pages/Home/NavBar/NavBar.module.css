@@ -1,0 +1,113 @@
+.navContainer{
+    display: flex;
+    align-items: center;
+}
+.dontActive{
+    display: none;
+}
+.search{
+    width: 470px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 20px;
+    justify-content: space-between;
+    margin-right: 10px;
+    background-color: white;
+
+}
+.searchInput{
+    border: none;
+    appearance: none;
+    outline: none;
+    width: 100%;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8C8C8C;
+}
+.searchInput::placeholder{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8C8C8C;
+}
+.searchInput::-webkit-search-cancel-button{
+    display: none;
+}
+.searchBtn{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 10px;
+    background: #FBE0DC;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btnBG{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnLike,.btnFavourites,.btnDislike{
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+}
+.btnFavourites{
+    margin: 0 10px;
+}
+
+/*Hover*/
+.searchHover{
+    outline: 2px solid #FBE0DC;
+}
+.searchBtn:hover{
+    background-color:#FF868E;
+}
+.searchBtn:hover .btnBG svg path{
+    fill: #FBE0DC;
+}
+.btnLike:hover{
+    background-color: #FBE0DC;
+}
+.btnFavourites:hover{
+    background-color: #FBE0DC;
+}
+.btnDislike:hover{
+    background-color: #FBE0DC;
+}
+.btnLike.active{
+    background-color:#FF868E;
+}
+.btnFavourites.active{
+    background-color:#FF868E;
+}
+.btnDislike.active{
+    background-color:#FF868E;
+}
+.btnLike.active svg path{
+    fill:white;
+}
+.btnFavourites.active svg path{
+    fill:white;
+}
+.btnDislike.active svg path{
+    fill:white;
+}
+
+/*FOCUS*/
+.searchFocus{
+    outline: 2px solid #FF868E;
+}
+.searchInput:focus{
+    color:#1D1D1D;
+}

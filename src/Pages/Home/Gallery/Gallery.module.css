@@ -1,0 +1,354 @@
+.galleryContent{
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 670px;
+}
+.galleryHeader{
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
+}
+.btnBack{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #FBE0DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.galleryTitle{
+    display: flex;
+    background: #FF868E;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18px;
+}
+.galleryTitle h2{
+    color: white;
+    text-transform: uppercase;
+    margin: 0 30px;
+}
+.btnUpload{
+    display: flex;
+    align-items: center;
+    background: #FBE0DC;
+    border-radius: 10px;
+    padding: 0 30px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.btnUpload h5{
+    color: #FF868E;
+    text-transform: uppercase;
+    margin: 12px 0 12px 10px;
+}
+.btnUpload:hover{
+    background: #FF868E;
+}
+.btnUpload:hover h5{
+    color: #FFFFFF;
+}
+.btnUpload:hover svg path{
+    fill: #FFFFFF;
+}
+.galleryContentBox{
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F7;
+}
+.gallerySortMenuGrid{
+    margin: 10px 20px;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "A B""C D";
+    width: 100%;
+    background: #F8F8F7;
+    position: relative;
+}
+.orderInputBox{
+    grid-area: A;
+    width: 310px;
+}
+.typeInputBox{
+    grid-area: B;
+    width: 310px;
+
+}
+.breedInputBox{
+    grid-area: C;
+    width: 310px;
+
+}
+.limitInputBox{
+    grid-area: D;
+    width: 310px;
+
+}
+.breedInput,.limitInput,.typeInput,.orderInput{
+    height: 40px;
+    background: white;
+    border-radius: 10px;
+    z-index: 0;
+    position: relative;
+
+}
+.breedInput{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.selectedBreeds{
+    margin-left: 10px;
+}
+.breedInput label{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.breedInput label:hover{
+    outline: 2px solid #FBE0DC;
+    border-radius: 10px;
+}
+.inp{
+    opacity: 0;
+    position: absolute;
+}
+.breedInput img{
+    position: absolute;
+    right: 10px;
+    z-index: -1;
+}
+.autofocus:focus{
+    margin-left: 20px;
+}
+.optionBox{
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    top: 40px;
+}
+.optionBox1{
+    background: white;
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    top: 40px;
+    overflow: scroll;
+}
+.optionBox1::-webkit-scrollbar{
+    display: none;
+}
+.loadMoreOpt{
+    bottom: 0;
+    margin-left: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.option{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.option h4{
+    margin-left: 10px;
+}
+.option:hover{
+    background: #F8F8F7;
+}
+.limitInput{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 81%;
+    z-index: 1;
+}
+.limitInput img{
+    position: absolute;
+    right: 10px;
+    z-index: -1;
+}
+.limitInput label{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.limitInput label:hover{
+    outline: 2px solid #FBE0DC;
+    border-radius: 10px;
+}
+.optionLimitBox{
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    top: 40px;
+}
+.options{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.optionOrderBox{
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    top: 40px;
+    z-index: 999;
+}
+.orderInput{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.orderInput img{
+    position: absolute;
+    right: 10px;
+    z-index: -1;
+}
+.orderInput label{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.orderInput label:hover{
+    outline: 2px solid #FBE0DC;
+    border-radius: 10px;
+}
+
+
+.optionTypeBox{
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    top: 40px;
+    z-index: 999;
+}
+.typeInput{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+.typeInput img{
+    position: absolute;
+    right: 10px;
+    z-index: -1;
+}
+.typeInput label{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.typeInput label:hover{
+    outline: 2px solid #FBE0DC;
+    border-radius: 10px;
+}
+.limitInpWithBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.limitContainer{
+    background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.limitContainer:hover{
+    background: #FF868E;
+}
+.limitContainer:hover svg path{
+    fill: #FBE0DC;
+}
+.galleryGrid{
+    display: flex;
+    margin-top: 20px;
+}
+.btns{
+    display: flex;
+    align-self: center;
+    margin-top: 20px;
+}
+.btnNext{
+    margin-left: 40px;
+}
+.btnPrev,.btnNext{
+    width: 122px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF868E;
+    cursor: pointer;
+}
+.arrowPrev{
+    transform: rotate(90deg);
+    margin: 0 15px 1px 0;
+}
+.arrowNext{
+    transform: rotate(-90deg);
+    margin: 0 0px 1px 15px;
+}
+.btnPrev:hover{
+    background: #FBE0DC;
+}
+.btnPrev:hover h4{
+    color: #FF868E;
+}
+.btnPrev:hover svg path{
+    fill: #FF868E;
+}
+.btnNext:hover{
+    background: #FBE0DC;
+}
+.btnNext:hover h4{
+    color: #FF868E;
+}
+.btnNext:hover svg path{
+    fill: #FF868E;
+}
