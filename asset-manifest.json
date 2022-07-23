@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/intern_test/static/css/main.4caa0800.css",
-    "main.js": "/intern_test/static/js/main.5c013211.js",
+    "main.js": "/intern_test/static/js/main.c0a18177.js",
     "static/js/787.f1fee744.chunk.js": "/intern_test/static/js/787.f1fee744.chunk.js",
     "static/media/pet-breeds.svg": "/intern_test/static/media/pet-breeds.11b3d89395d60dd8686fcd27153b82ad.svg",
     "static/media/girl-and-pet 1.svg": "/intern_test/static/media/girl-and-pet 1.c9bbff2bdb8842537f95f0922727f855.svg",
@@ -17,11 +17,11 @@
     "static/media/arrowSelect.svg": "/intern_test/static/media/arrowSelect.6053ad60f30726afab93d1198181f311.svg",
     "static/media/favoriteFill.svg": "/intern_test/static/media/favoriteFill.0de8dc7271e127b26f80b3bc9787bf72.svg",
     "main.4caa0800.css.map": "/intern_test/static/css/main.4caa0800.css.map",
-    "main.5c013211.js.map": "/intern_test/static/js/main.5c013211.js.map",
+    "main.c0a18177.js.map": "/intern_test/static/js/main.c0a18177.js.map",
     "787.f1fee744.chunk.js.map": "/intern_test/static/js/787.f1fee744.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4caa0800.css",
-    "static/js/main.5c013211.js"
+    "static/js/main.c0a18177.js"
   ]
 }
