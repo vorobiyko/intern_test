@@ -83,7 +83,7 @@ const Home = () => {
                 <div className={s.displayGrid}>
                     <div className={s.leftContainer}>
                         <div className={s.functionalContainer}>
-                            <NavLink className={s.navlinkLogo} to=''>
+                            <NavLink className={s.navlinkLogo} to='intern_test/'>
                                 <div className={s.logo}></div>
                             </NavLink>
                             <div className={s.widgetContainer}>
@@ -138,7 +138,7 @@ const Home = () => {
 
                         <Routes>
                             <Route path='/gallery/upload' element={<Modal setIsModal={setIsModal}/>}></Route>
-                            <Route path="" element={<Plug setIsNavBar={setIsNavBar} />}></Route>
+                            <Route path="/intern_test/" element={<Plug setIsNavBar={setIsNavBar} />}></Route>
                             <Route path="/voting"  element={<Voting voteResponses={voteResponses} setVoteResponses={setVoteResponses}
                                                                     favResponses={favResponses} setFavResponses={setFavResponses}/>}></Route>
                             <Route path="/breeds" element={<Breeds data={data} setData={setData}
